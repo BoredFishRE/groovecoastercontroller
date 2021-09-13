@@ -1,3 +1,9 @@
+# Groove Coaster Controller 2021 (Modified by Anthony Raudino)
+This is a fork of the original project modified with some adjustments as well as acrylic cuts, custom prints as well as controller and LED code built for Arduino.
+
+Original readme included below for referencing.
+
+
 # Groove Coaster Controller
 GrooveCoaster Controller replica with dimensions from real cabinet  
 Box is 20 x 10 x 56.5 cm
