@@ -1,0 +1,608 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Notes Line
+	9700 3950 9700 2950
+Wire Notes Line
+	5650 2950 5650 3950
+Text Notes 5650 2950 0    50   ~ 0
+Push Button Resistors
+$Comp
+L Device:R R12
+U 1 1 614E15A9
+P 8250 2200
+F 0 "R12" H 8320 2246 50  0000 L CNN
+F 1 "220Ω" H 8320 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8180 2200 50  0001 C CNN
+F 3 "~" H 8250 2200 50  0001 C CNN
+	1    8250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 614E29B9
+P 8600 2200
+F 0 "R13" H 8670 2246 50  0000 L CNN
+F 1 "220Ω" H 8670 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8530 2200 50  0001 C CNN
+F 3 "~" H 8600 2200 50  0001 C CNN
+	1    8600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 614E2C91
+P 8950 2200
+F 0 "R14" H 9020 2246 50  0000 L CNN
+F 1 "220Ω" H 9020 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8880 2200 50  0001 C CNN
+F 3 "~" H 8950 2200 50  0001 C CNN
+	1    8950 2200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8100 2500 9300 2500
+Wire Notes Line
+	9300 2500 9300 1900
+Wire Notes Line
+	9300 1900 8100 1900
+Wire Notes Line
+	8100 1900 8100 2500
+Text Notes 8100 1900 0    50   ~ 0
+LED Resistors
+$Comp
+L arduino:Arduino_Micro_Socket XA1
+U 1 1 614D50F5
+P 3950 3800
+F 0 "XA1" V 4800 2750 60  0000 R CNN
+F 1 "Micro Pinout" V 4900 2750 60  0000 R CNN
+F 2 "" H 5750 7550 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-micro" H 5750 7550 60  0001 C CNN
+	1    3950 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 614D9437
+P 6200 3450
+F 0 "R2" H 6270 3496 50  0000 L CNN
+F 1 "10kΩ" H 6270 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6130 3450 50  0001 C CNN
+F 3 "~" H 6200 3450 50  0001 C CNN
+	1    6200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 614DAAD1
+P 9000 3450
+F 0 "R10" H 9070 3496 50  0000 L CNN
+F 1 "10kΩ" H 9070 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8930 3450 50  0001 C CNN
+F 3 "~" H 9000 3450 50  0001 C CNN
+	1    9000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 614DA87B
+P 8650 3450
+F 0 "R9" H 8720 3496 50  0000 L CNN
+F 1 "10kΩ" H 8720 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8580 3450 50  0001 C CNN
+F 3 "~" H 8650 3450 50  0001 C CNN
+	1    8650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 614DA5EC
+P 8300 3450
+F 0 "R8" H 8370 3496 50  0000 L CNN
+F 1 "10kΩ" H 8370 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8230 3450 50  0001 C CNN
+F 3 "~" H 8300 3450 50  0001 C CNN
+	1    8300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 614DA182
+P 7600 3450
+F 0 "R6" H 7670 3496 50  0000 L CNN
+F 1 "10kΩ" H 7670 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7530 3450 50  0001 C CNN
+F 3 "~" H 7600 3450 50  0001 C CNN
+	1    7600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 614D9EA5
+P 7250 3450
+F 0 "R5" H 7320 3496 50  0000 L CNN
+F 1 "10kΩ" H 7320 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7180 3450 50  0001 C CNN
+F 3 "~" H 7250 3450 50  0001 C CNN
+	1    7250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 614D9BA2
+P 6900 3450
+F 0 "R4" H 6970 3496 50  0000 L CNN
+F 1 "10kΩ" H 6970 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6830 3450 50  0001 C CNN
+F 3 "~" H 6900 3450 50  0001 C CNN
+	1    6900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 614D993E
+P 6550 3450
+F 0 "R3" H 6620 3496 50  0000 L CNN
+F 1 "10kΩ" H 6620 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6480 3450 50  0001 C CNN
+F 3 "~" H 6550 3450 50  0001 C CNN
+	1    6550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 614D7FB4
+P 5850 3450
+F 0 "R1" H 5920 3496 50  0000 L CNN
+F 1 "10kΩ" H 5920 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5780 3450 50  0001 C CNN
+F 3 "~" H 5850 3450 50  0001 C CNN
+	1    5850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 614DA3DB
+P 7950 3450
+F 0 "R7" H 8020 3496 50  0000 L CNN
+F 1 "10kΩ" H 8020 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7880 3450 50  0001 C CNN
+F 3 "~" H 7950 3450 50  0001 C CNN
+	1    7950 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5100 4550 5200
+Wire Wire Line
+	4550 5200 5550 5200
+Wire Wire Line
+	5550 5200 5550 4050
+Wire Wire Line
+	5550 4050 5850 4050
+Wire Wire Line
+	5850 3600 5850 4050
+Connection ~ 5850 4050
+Wire Wire Line
+	5850 4050 6200 4050
+Wire Wire Line
+	6200 3600 6200 4050
+Connection ~ 6200 4050
+Wire Wire Line
+	6200 4050 6550 4050
+Wire Wire Line
+	6550 3600 6550 4050
+Connection ~ 6550 4050
+Wire Wire Line
+	6550 4050 6900 4050
+Wire Wire Line
+	6900 3600 6900 4050
+Connection ~ 6900 4050
+Wire Wire Line
+	6900 4050 7250 4050
+Wire Wire Line
+	7250 3600 7250 4050
+Connection ~ 7250 4050
+Wire Wire Line
+	7250 4050 7600 4050
+Wire Wire Line
+	7600 3600 7600 4050
+Connection ~ 7600 4050
+Wire Wire Line
+	7600 4050 7950 4050
+Wire Wire Line
+	7950 3600 7950 4050
+Connection ~ 7950 4050
+Wire Wire Line
+	8300 3600 8300 4050
+Wire Wire Line
+	7950 4050 8300 4050
+Connection ~ 8300 4050
+Wire Wire Line
+	8300 4050 8650 4050
+Wire Wire Line
+	8650 3600 8650 4050
+Connection ~ 8650 4050
+Wire Wire Line
+	8650 4050 9000 4050
+Wire Wire Line
+	9000 3600 9000 4050
+Wire Wire Line
+	8250 2350 8250 2600
+Wire Wire Line
+	8250 2600 8600 2600
+Wire Wire Line
+	8600 2350 8600 2600
+Connection ~ 8600 2600
+Wire Wire Line
+	8600 2600 8950 2600
+Wire Wire Line
+	8950 2350 8950 2600
+Wire Wire Line
+	6050 2050 6100 2050
+Wire Wire Line
+	6100 2050 6100 2650
+Wire Wire Line
+	6100 2650 5850 2650
+Wire Wire Line
+	5850 2650 5850 3300
+Wire Wire Line
+	6850 2050 6900 2050
+Wire Wire Line
+	6900 2050 6900 2400
+Wire Wire Line
+	6900 2400 6200 2400
+Wire Wire Line
+	6200 2400 6200 3300
+Wire Wire Line
+	7600 2050 7650 2050
+Wire Wire Line
+	7650 2050 7650 2450
+Wire Wire Line
+	7650 2450 6550 2450
+Wire Wire Line
+	6550 2450 6550 3300
+$Comp
+L Device:R R11
+U 1 1 6152496B
+P 9350 3450
+F 0 "R11" H 9420 3496 50  0000 L CNN
+F 1 "10kΩ" H 9420 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9280 3450 50  0001 C CNN
+F 3 "~" H 9350 3450 50  0001 C CNN
+	1    9350 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4050 9350 4050
+Wire Wire Line
+	9350 4050 9350 3600
+Connection ~ 9000 4050
+Wire Notes Line
+	5650 2950 9700 2950
+Wire Notes Line
+	5650 3950 9700 3950
+Wire Wire Line
+	3350 5100 3350 5350
+Wire Wire Line
+	3350 5350 5200 5350
+Wire Wire Line
+	5200 5350 5200 2050
+Wire Wire Line
+	5200 2050 5650 2050
+Wire Wire Line
+	6450 2050 6150 2050
+Wire Wire Line
+	6150 2050 6150 2300
+Wire Wire Line
+	6150 2300 5300 2300
+Wire Wire Line
+	5300 2300 5300 5400
+Wire Wire Line
+	5300 5400 3450 5400
+Wire Wire Line
+	3450 5400 3450 5100
+Wire Wire Line
+	9350 4050 9750 4050
+Wire Wire Line
+	9750 4050 9750 2600
+Wire Wire Line
+	9750 2600 8950 2600
+Connection ~ 9350 4050
+Connection ~ 8950 2600
+$Comp
+L Switch:SW_Push BT1
+U 1 1 6156715B
+P 5850 2050
+F 0 "BT1" H 5850 2335 50  0000 C CNN
+F 1 "BT1_LeftJoyBtn" H 5850 2244 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5850 2250 50  0001 C CNN
+F 3 "~" H 5850 2250 50  0001 C CNN
+	1    5850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push BT2
+U 1 1 61567FC0
+P 6650 2050
+F 0 "BT2" H 6650 2335 50  0000 C CNN
+F 1 "BT2_RightJoyBtn" H 6650 2244 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 6650 2250 50  0001 C CNN
+F 3 "~" H 6650 2250 50  0001 C CNN
+	1    6650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push BT3
+U 1 1 61568870
+P 7400 2050
+F 0 "BT3" H 7400 2335 50  0000 C CNN
+F 1 "BT3_StartBtn" H 7400 2244 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 7400 2250 50  0001 C CNN
+F 3 "~" H 7400 2250 50  0001 C CNN
+	1    7400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Lamp LED1
+U 1 1 61569989
+P 8050 1300
+F 0 "LED1" H 7922 1254 50  0000 R CNN
+F 1 "BT1_LED" H 7922 1345 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" V 8050 1400 50  0001 C CNN
+F 3 "~" V 8050 1400 50  0001 C CNN
+	1    8050 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Lamp LED2
+U 1 1 6156BB37
+P 8600 1300
+F 0 "LED2" H 8472 1254 50  0000 R CNN
+F 1 "BT2_LED" H 8472 1345 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" V 8600 1400 50  0001 C CNN
+F 3 "~" V 8600 1400 50  0001 C CNN
+	1    8600 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Lamp LED3
+U 1 1 6156C54D
+P 9150 1300
+F 0 "LED3" H 9022 1254 50  0000 R CNN
+F 1 "BT3_LED" H 9022 1345 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" V 9150 1400 50  0001 C CNN
+F 3 "~" V 9150 1400 50  0001 C CNN
+	1    9150 1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 2050 8250 1500
+Wire Wire Line
+	8250 1500 8050 1500
+Wire Wire Line
+	8600 2050 8600 1500
+Wire Wire Line
+	8950 2050 8950 1500
+Wire Wire Line
+	8950 1500 9150 1500
+Wire Wire Line
+	7200 2050 7200 2150
+Wire Wire Line
+	7200 2150 3050 2150
+Wire Wire Line
+	3050 2150 3050 2500
+$Comp
+L Switch:SW_Push Joy1
+U 1 1 6157D433
+P 6700 4850
+F 0 "Joy1" H 6700 5135 50  0000 C CNN
+F 1 "JoyLeft_UP" H 6700 5044 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 6700 5050 50  0001 C CNN
+F 3 "~" H 6700 5050 50  0001 C CNN
+	1    6700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push Joy2
+U 1 1 6157F93B
+P 7350 4850
+F 0 "Joy2" H 7350 5135 50  0000 C CNN
+F 1 "JoyLeft_DOWN" H 7350 5044 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 7350 5050 50  0001 C CNN
+F 3 "~" H 7350 5050 50  0001 C CNN
+	1    7350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push Joy3
+U 1 1 6157FCAD
+P 8000 4850
+F 0 "Joy3" H 8000 5135 50  0000 C CNN
+F 1 "JoyLeft_LEFT" H 8000 5044 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8000 5050 50  0001 C CNN
+F 3 "~" H 8000 5050 50  0001 C CNN
+	1    8000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push Joy4
+U 1 1 615800D2
+P 8650 4850
+F 0 "Joy4" H 8650 5135 50  0000 C CNN
+F 1 "JoyLeft_RIGHT" H 8650 5044 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8650 5050 50  0001 C CNN
+F 3 "~" H 8650 5050 50  0001 C CNN
+	1    8650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push Joy5
+U 1 1 615806D9
+P 6700 5400
+F 0 "Joy5" H 6700 5685 50  0000 C CNN
+F 1 "JoyRight_UP" H 6700 5594 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 6700 5600 50  0001 C CNN
+F 3 "~" H 6700 5600 50  0001 C CNN
+	1    6700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push Joy6
+U 1 1 6158189F
+P 7350 5400
+F 0 "Joy6" H 7350 5685 50  0000 C CNN
+F 1 "JoyRight_DOWN" H 7350 5594 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 7350 5600 50  0001 C CNN
+F 3 "~" H 7350 5600 50  0001 C CNN
+	1    7350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push Joy7
+U 1 1 61581F08
+P 8000 5400
+F 0 "Joy7" H 8000 5685 50  0000 C CNN
+F 1 "JoyRight_LEFT" H 8000 5594 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8000 5600 50  0001 C CNN
+F 3 "~" H 8000 5600 50  0001 C CNN
+	1    8000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push Joy8
+U 1 1 615823BD
+P 8650 5400
+F 0 "Joy8" H 8650 5685 50  0000 C CNN
+F 1 "JoyRight_RIGHT" H 8650 5594 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8650 5600 50  0001 C CNN
+F 3 "~" H 8650 5600 50  0001 C CNN
+	1    8650 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3300 7000 3300
+Wire Wire Line
+	7000 3300 7000 4850
+Wire Wire Line
+	7000 4850 6900 4850
+Wire Wire Line
+	7600 3300 7750 3300
+Wire Wire Line
+	7750 3300 7750 4500
+Wire Wire Line
+	8200 4500 8200 4850
+Wire Wire Line
+	7750 4500 8200 4500
+Wire Wire Line
+	8850 4850 8850 4400
+Wire Wire Line
+	8850 4400 8050 4400
+Wire Wire Line
+	8050 4400 8050 3300
+Wire Wire Line
+	8050 3300 7950 3300
+Wire Wire Line
+	6900 5400 6900 4950
+Wire Wire Line
+	6900 4950 8400 4950
+Wire Wire Line
+	8400 4950 8400 3300
+Wire Wire Line
+	8400 3300 8300 3300
+Wire Wire Line
+	7550 5400 7550 5050
+Wire Wire Line
+	7550 5050 8950 5050
+Wire Wire Line
+	8950 5050 8950 4300
+Wire Wire Line
+	8950 4300 8750 4300
+Wire Wire Line
+	8750 4300 8750 3300
+Wire Wire Line
+	8750 3300 8650 3300
+Wire Wire Line
+	8200 5400 8200 5100
+Wire Wire Line
+	8200 5100 9150 5100
+Wire Wire Line
+	9150 5100 9150 3300
+Wire Wire Line
+	9150 3300 9000 3300
+Wire Wire Line
+	9350 3300 9550 3300
+Wire Wire Line
+	9550 3300 9550 5400
+Wire Wire Line
+	9550 5400 8850 5400
+Wire Wire Line
+	3650 2500 3650 2350
+Wire Wire Line
+	3650 2350 5050 2350
+Wire Wire Line
+	5050 2350 5050 4850
+Wire Wire Line
+	5050 4850 6500 4850
+Wire Wire Line
+	3750 2500 3750 2400
+Wire Wire Line
+	3750 2400 5100 2400
+Wire Wire Line
+	5100 2400 5100 4500
+Wire Wire Line
+	5100 4500 7150 4500
+Wire Wire Line
+	7150 4500 7150 4850
+Wire Wire Line
+	5150 4450 5150 2450
+Wire Wire Line
+	5150 2450 3850 2450
+Wire Wire Line
+	3850 2450 3850 2500
+Wire Wire Line
+	5150 4450 7200 4450
+Wire Wire Line
+	3950 2500 3950 2300
+Wire Wire Line
+	3950 2300 5250 2300
+Wire Wire Line
+	5250 2300 5250 4400
+Wire Wire Line
+	5250 4400 8000 4400
+Wire Wire Line
+	8000 4400 8000 4450
+Wire Wire Line
+	8000 4450 8350 4450
+Wire Wire Line
+	8350 4450 8350 4850
+Wire Wire Line
+	8350 4850 8450 4850
+Wire Wire Line
+	7200 4450 7200 4350
+Wire Wire Line
+	7200 4350 7650 4350
+Wire Wire Line
+	7650 4850 7800 4850
+Wire Wire Line
+	7650 4350 7650 4850
+Wire Wire Line
+	7550 4200 7400 4200
+Wire Wire Line
+	7400 4200 7400 3300
+Wire Wire Line
+	7550 4200 7550 4850
+Wire Wire Line
+	7250 3300 7400 3300
+$EndSCHEMATC
