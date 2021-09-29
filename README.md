@@ -8,6 +8,7 @@ Original readme included below for referencing.
 GrooveCoaster Controller replica with dimensions from real cabinet  
 Box is 20 x 10 x 56.5 cm
 
+![6mmcontroller](Groove_Coaster_Anthony_Raudino.png)
 ![controller](controller.jpg)
 ![controller wireframe](controller_wireframe.jpg)
 (part linking the ls32 and joy_stick is missing in this picture: you can [look at it here](joy_tube.STL))
