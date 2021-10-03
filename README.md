@@ -1,7 +1,7 @@
 # Groove Coaster Controller 2021 (Modified by Anthony Raudino)
 This is a fork of the original project modified with some adjustments as well as acrylic cuts, custom prints as well as controller and LED code built for Arduino.
 
-Original readme included below for referencing.
+* Original readme included in seperate file for anyone wanting to follow the original Teensy instructions.
 
 
 # Groove Coaster Controller
@@ -10,11 +10,10 @@ Box is 20 x 10 x 56.5 cm
 
 ![6mmcontroller](Groove_Coaster_Anthony_Raudino.png)
 ![controller](controller.jpg)
-![controller wireframe](controller_wireframe.jpg)
-(part linking the ls32 and joy_stick is missing in this picture: you can [look at it here](joy_tube.STL))
+
 
 # needed
-- a teensy 3.2 or 3.1
+- Arduino Leonardo/Micro
 - a 3D printer
 - a laser cutting machine
 - 5mm plywood
