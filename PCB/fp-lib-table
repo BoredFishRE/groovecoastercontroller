@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Footprints")(type "KiCad")(uri "C:/Users/egb11/Documents/KiCad/7.0/SparkFun-KiCad-Libraries-main/Footprints")(options "")(descr ""))
+  (lib (name "promicro")(type "KiCad")(uri "C:/Users/egb11/Documents/KiCad/7.0/ProMicroKiCad-master/promicro.pretty")(options "")(descr ""))
+)
