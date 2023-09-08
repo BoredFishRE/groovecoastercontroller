@@ -44,3 +44,6 @@ Box is 20 x 10 x 56.5 cm
 
 # soldering (If you're not using the PCB)
 - Use schematic tbh.
+
+# Firmware
+- I will release soon, but I will be using GP2040-CE
