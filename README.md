@@ -26,6 +26,10 @@ Box is 20 x 10 x 56.5 cm
 - A lot of screws, specific amount coming soon
 - M3 heat set inserts, I suggest the CNC Kitchen since that's what I designed for.
 
+# not needed, but suggested
+ - 20g Sanwa springs (you need 2, but you can get a 10 pack easily)
+ - 100g Omron V-10-1A4 x2 (for the 2 main buttons, you can get 3 if you want it on the start button, but you don't need it)
+
 # things to 3d print
 - 2 x joy_stick.stl
 - 2 x joy_base.stl
