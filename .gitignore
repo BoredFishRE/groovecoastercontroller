@@ -51,3 +51,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 .DS_Store
+
+PCB/Groove Coaster-backups
+PCB/Gerbers
+PCB/Gerbers.zip

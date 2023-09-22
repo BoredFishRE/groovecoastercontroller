@@ -3,6 +3,8 @@ This is a fork of the fork of the original project modified with some adjustment
 
 # This is a WIP as I refine things. Don't use the stick tubes from the CAD, they didn't convert well.
 
+# WARNING!!! On the PCB, ground for the joysticks is pin 5, the pin on the connector all the way to the right. Your joystick may come with ground as pin 1, please make note of this.
+
 * Original readme included in seperate file for anyone wanting to follow the original Teensy instructions, though I don't suggest it.
 
 
